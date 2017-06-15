@@ -61,7 +61,7 @@ async def give_stars(ctx,*args):
             num = 0
             if int(args[1]) >= 0:
                 operator = "+"
-            elif int(args[1]) < 0:
+            else:
               operator = ""
             for key in player_stars:
                 if key == args[0]:
